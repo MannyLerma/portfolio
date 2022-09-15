@@ -1,0 +1,74 @@
+h2 {
+    font-family: Braveold;
+    font-size: 52px;
+    margin-bottom: 28px;
+}
+
+h3 {
+    font-family: Braveold;
+    font-size: 32px;
+}
+
+
+.card-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+div.card > img {
+    display: flex;
+    width: 380px;
+    height: auto;
+    justify-content: center;
+}
+
+.left-container {
+    display: flex;
+    border: 4px solid black;
+    height: 490px;
+    width: 380px;
+    border-radius: 32px;
+    padding: 32px;
+    padding-bottom: 46px;
+}
+
+.right-container {
+    display: flex;
+    border: 4px solid black;
+    height: 490px;
+    width: 380px;
+    border-radius: 32px;
+    padding: 32px;
+    margin-top: 125px;
+    padding-bottom: 46px;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 380px;
+    margin-bottom: 24px;
+}
+
+button {
+    font-family: 'Futura';
+    font-size: 18px;
+    padding: 9px 36px;
+    background: none;
+    border: 2.5px black solid;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button:first-child {
+    background-color: black;
+    color: white;
+}
+

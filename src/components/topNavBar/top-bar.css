@@ -1,0 +1,42 @@
+
+.top-nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 36px;
+    height: 36px;
+    margin-right: 6px;
+}
+
+div.logo {
+    display: block;
+    width: 25px;
+    background-color: red;
+}
+
+.brand-container {
+    display: flex;
+}
+
+.title {
+    font-family: Braveold;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.links {
+    font-family: 'Futura';
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 56px;
+    cursor: pointer;
+}
+
+.links > p:hover {
+    color: darkgray;
+    transition: color ease-out 200ms;
+}
