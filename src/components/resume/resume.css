@@ -1,0 +1,25 @@
+h4 {
+    font-size: 24px;
+}
+
+.resume-info-container {
+    display: flex;
+    gap: 280px;
+}
+
+div.work-experience > p {
+    font-size: 20px;
+}
+
+.skills-container{
+    display: flex;
+}
+
+.tools-container {
+    display: flex;
+}
+
+li {
+    font-size:20px ;
+    list-style: none;
+}

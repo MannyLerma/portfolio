@@ -9,6 +9,9 @@ h3 {
     font-size: 32px;
 }
 
+.projects-container {
+    margin-bottom: 56px;
+}
 
 .card-containers {
     display: flex;
