@@ -5,14 +5,46 @@ h4 {
 .resume-info-container {
     display: flex;
     gap: 280px;
+    margin-bottom: 26px;
+}
+ 
+/* Work experience section */
+.work-experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 62px;
 }
 
 div.work-experience > p {
     font-size: 20px;
+    margin: 8px 0;
 }
 
-.skills-container{
+
+/* Education section */
+.education-container {
     display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 62px;
+}
+
+div.education > p {
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 62px;
+}
+
+.list {
+    display: flex;
+    gap: 130px;
 }
 
 .tools-container {
@@ -22,4 +54,25 @@ div.work-experience > p {
 li {
     font-size:20px ;
     list-style: none;
+    margin: 16px 0;
+}
+
+
+/* Online Courses Section */
+.courses-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 62px;
+}
+
+.online-course {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.online-course > p {
+    font-size: 20px;
 }
