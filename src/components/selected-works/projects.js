@@ -5,7 +5,8 @@ export const Projects = () => {
 
 return (
     <div className='projects-container'>
-        <div className='project-title'>
+        <div className='title'>
+            <span  className="project-dot"></span>
             <h2>Selected Works</h2>
         </div>
         <div className='card-containers'>

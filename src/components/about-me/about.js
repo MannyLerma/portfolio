@@ -4,8 +4,9 @@ export const AboutMe = () => {
 
     return (
         <div className='about-me-container'>
-            <div>
-            <h2>About Me</h2>
+            <div  className='title'>
+                <span className="about-dot"></span>
+                <h2>About Me</h2>
             </div>
             <div className='about-text-container'>
             <div className='text-container'>

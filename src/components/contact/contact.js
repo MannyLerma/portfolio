@@ -1,4 +1,8 @@
 import './contact.css';
+import linkedin from './linkedin.png';
+import github from './github.png';
+import resume from './resume.png';
+import email from './email.png';
 
 export const Contact = () => {
 
@@ -16,19 +20,19 @@ export const Contact = () => {
             <br></br>
             <div className='contact-links-container'>
                 <div className='link-row'>
-                    <img src=''/>
+                    <img src={email}/>
                     <h3>Emmanuellerma@outlook.com</h3>
                 </div>
                 <div className='link-row'>
-                    <img src=''/>
+                    <img src={github}/>
                     <h3>Github Link</h3>
                 </div>
                 <div className='link-row'>
-                    <img src=''/>
+                    <img src={linkedin}/>
                     <h3>Linkedin Link</h3>
                 </div>
                 <div className='link-row'>
-                    <img src=''/>
+                    <img src={resume}/>
                     <h3>View My Resume</h3>
                 </div>
 

@@ -4,8 +4,9 @@ export const Resume = () => {
 
     return (
         <div className='resume-container'>
-            <div>
-            <h2>Resume</h2>
+            <div className='title'>
+                <span  className="resume-dot"></span>
+                <h2>Resume</h2>
             </div>
             <div className='resume-info-container'>
             <div className='resume-left-side'>
