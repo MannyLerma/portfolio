@@ -6,7 +6,7 @@ h2 {
 
 h3 {
     font-family: Braveold;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .projects-container {
@@ -30,6 +30,7 @@ div.card > img {
     width: 380px;
     height: auto;
     justify-content: center;
+    margin: 60px 0;
 }
 
 .left-container {

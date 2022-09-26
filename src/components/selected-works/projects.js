@@ -1,5 +1,6 @@
 import './projects.css';
 import Laptop from './laptop.png';
+import RPS from './RPS-Mockup.png';
 
 export const Projects = () => {
 
@@ -12,9 +13,9 @@ return (
         <div className='card-containers'>
             <div className='left-container'>
                 <div className='card'>
-                    <h3>Card One</h3>
+                    <h3>Rock, Paper, Scissors</h3>
                     <p>Web Design, Web Development</p>
-                    <img src={Laptop} />
+                    <img src={RPS} alt={'Rock, Paper, Scissors project'} />
                     <div className='project-buttons'>
                         <button>Live</button>
                         <button>Github</button>
