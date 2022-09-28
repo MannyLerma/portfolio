@@ -1,6 +1,7 @@
 import './projects.css';
 import Laptop from './laptop.png';
 import RPS from './RPS-Mockup.png';
+import Hulu from './Hulu-Mockup.png';
 
 export const Projects = () => {
 
@@ -25,9 +26,9 @@ return (
             </div>
             <div className='right-container'>
                 <div className='card'>
-                <h3>Card Two</h3>
+                <h3>Hulu Clone</h3>
                 <p>React Development, Web Design</p>
-                <img src={Laptop} />
+                <img src={Hulu} />
                 <div className='project-buttons'>
                         <button>Live</button>
                         <button>Github</button>
