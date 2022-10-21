@@ -39,7 +39,7 @@ return (
         <div className='card-containers'>
             <div className='left-container'>
                 <div className='card'>
-                    <h3>Card Three</h3>
+                    <h3>Weather App</h3>
                     <p>Web Design, Web Development</p>
                     <img src={Laptop} />
                     <div className='project-buttons'>
@@ -51,7 +51,32 @@ return (
             </div>
             <div className='right-container'>
                 <div className='card'>
-                <h3>Card Four</h3>
+                <h3>Portfolio</h3>
+                <p>React Development, Web Design</p>
+                <img src={Laptop} />
+                <div className='project-buttons'>
+                        <button>Live</button>
+                        <button>Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className='card-containers'>
+            <div className='left-container'>
+                <div className='card'>
+                    <h3>Complete Sign Solutions Website</h3>
+                    <p>Web Design, Web Development</p>
+                    <img src={Laptop} />
+                    <div className='project-buttons'>
+                        <button>Live</button>
+                        <button>Github</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div className='right-container'>
+                <div className='card'>
+                <h3>Pharmacy Website</h3>
                 <p>React Development, Web Design</p>
                 <img src={Laptop} />
                 <div className='project-buttons'>
