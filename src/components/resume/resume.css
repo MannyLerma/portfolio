@@ -76,8 +76,32 @@ li {
     margin-bottom: 12px;
 }
 
+.online-course > h4 {
+    cursor: pointer;
+}
+
 .online-course > p {
     font-size: 24px;
+}
+
+.course-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.course-link > img {
+    height: 25px;
+    width: auto;
 }
 
 .title {

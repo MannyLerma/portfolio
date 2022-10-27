@@ -20,16 +20,22 @@ export const Contact = () => {
             <br></br>
             <div className='contact-links-container'>
                 <div className='link-row'>
-                    <img src={email}/>
-                    <h3>Emmanuellerma@outlook.com</h3>
+                    <a href="mailto:someone@something.com?subject=your title&body=TThe message">
+                        <img src={email}/>
+                        <h3>Emmanuellerma@outlook.com</h3>
+                    </a>
                 </div>
                 <div className='link-row'>
-                    <img src={github}/>
-                    <h3>Github Link</h3>
+                    <a href='https://github.com/MannyLerma'>
+                        <img src={github}/>
+                        <h3>Github Link</h3>
+                    </a>
                 </div>
                 <div className='link-row'>
-                    <img src={linkedin}/>
-                    <h3>Linkedin Link</h3>
+                    <a href='https://www.linkedin.com/in/emmanuellerma/'>
+                        <img src={linkedin}/>
+                        <h3>Linkedin Link</h3>
+                    </a>
                 </div>
                 <div className='link-row'>
                     <img src={resume}/>

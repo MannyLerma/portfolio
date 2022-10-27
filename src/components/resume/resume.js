@@ -1,4 +1,5 @@
 import './resume.css';
+import NewTab from './open-new-tab.png';
 
 export const Resume = () => {
 
@@ -86,29 +87,47 @@ export const Resume = () => {
                 <div className='courses-container'>
                     <h3>Online Courses</h3>
                     <div className='online-course'>
-                        <h4>freeCodeCamp</h4>
+                        <div className='course-link'>
+                            <h4><a href='https://www.freecodecamp.org/'>freeCodeCamp</a></h4>
+                            <img src={NewTab}></img>
+                        </div>
                         <p>Responsive Web Design</p>
                         <p>JavaScript Algorithms</p>
                     </div>
                     <div className='online-course'>
-                        <h4>The Odin Project</h4>
+                        <div className='course-link'>
+                            <h4><a href='https://www.theodinproject.com/'>The Odin Project</a></h4>
+                            <img src={NewTab}></img>
+                        </div>
                         <p>Foundations</p>
                     </div>
                     <div className='online-course'>
-                        <h4>Codecademy</h4>
+                        <div className='course-link'>
+                            <h4><a href='https://www.codecademy.com/'>Codecademy</a></h4>
+                            <img src={NewTab}></img>
+                        </div>
                         <p>Various Courses</p>
                     </div>
                     <div className='online-course'>
-                        <h4>Udemy</h4>
-                        <p>The Complete 2022 Web Development Bootcamp</p>
-                        <p>The Complete WordPress Website Business Course</p>
+                        <div className='course-link'>
+                            <h4><a href='https://www.udemy.com/'>Udemy</a></h4>
+                            <img src={NewTab}></img>
+                        </div>
+                            <p>The Complete 2022 Web Development Bootcamp</p>
+                            <p>The Complete WordPress Website Business Course</p>
                     </div>
                     <div className='online-course'>
-                        <h4>Coursera</h4>
+                        <div className='course-link'>
+                            <h4><a href='https://www.coursera.org/'>Coursera</a></h4>
+                            <img src={NewTab}></img>
+                        </div>
                         <p>Intro to UX Design from Georgia Tech</p>
                     </div>
                     <div className='online-course'>
-                        <h4>Google Digital Garage</h4>
+                        <div className='course-link'>
+                            <h4><a href='https://learndigital.withgoogle.com/digitalgarage/'>Google Digital Garage</a></h4>
+                            <img src={NewTab}></img>
+                        </div>
                         <p>Fundamentals of Digital Marketing</p>
                     </div>
                 </div>

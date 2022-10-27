@@ -59,10 +59,30 @@ export const Intro = () => {
                 </div>
 
                 <div className='heading-links'>
-                    <img src={linkedin} />
-                    <img src={github} />
-                    <img src={email} />
-                    <img src={resume} />
+                    <div className='tooltip'>
+                        <a href='https://www.linkedin.com/in/emmanuellerma/' target="_blank">
+                            <img src={linkedin} />
+                            <p className='tooltiptxt'>LinkedIn</p>
+                        </a>
+                    </div>
+                    <div className='tooltip'>
+                        <a href='https://github.com/MannyLerma' target="_blank">
+                            <img src={github} />
+                            <p className='tooltiptxt'>GitHub</p>
+                        </a>
+                    </div>
+                    <div className='tooltip'>
+                        <a href="mailto:someone@something.com?subject=your title&body=TThe message">
+                            <img src={email} />
+                            <p className='tooltiptxt'>E-mail</p>
+                        </a>
+                    </div>
+                    <div className='tooltip'>
+                        <a href='' target="_blank">
+                            <img src={resume} />
+                            <p className='tooltiptxt'>Resume</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -90,10 +90,23 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.496);
+}
+
 button:first-child {
     background-color: black;
     color: white;
     width: 14vw;
+}
+
+button:first-child:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
 }
 
 .title {

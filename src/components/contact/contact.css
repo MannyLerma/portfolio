@@ -31,6 +31,13 @@ input:last-child {
 .link-row {
     display: flex;
     gap: 22px;
+    cursor: pointer;
+}
+
+.link-row > a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .link-row > img {
