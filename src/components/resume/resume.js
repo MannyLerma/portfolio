@@ -13,19 +13,19 @@ export const Resume = () => {
                 <div className='work-experience-container'>
                     <h3>Work Experience</h3>
                     <div className='work-experience'>
-                        <h4>Company Name</h4>
-                        <p>Position Title</p>
-                        <p>Date</p>
+                        <h4>Infinity Graphics</h4>
+                        <p>Graphic Designer/Production Artist</p>
+                        <p>August 2022 - Current</p>
                     </div>
                     <div className='work-experience'>
-                        <h4>Company Name</h4>
-                        <p>Position Title</p>
-                        <p>Date</p>
+                        <h4>RX1 Management</h4>
+                        <p>Graphic Designer/Content Manager</p>
+                        <p>August 2020 - August 2022</p>
                     </div>
                     <div className='work-experience'>
-                        <h4>Company Name</h4>
-                        <p>Position Title</p>
-                        <p>Date</p>
+                        <h4>Sigma Signs & Printing</h4>
+                        <p>Graphic Designer/Production Artist</p>
+                        <p>August 2019 - March 2020</p>
                     </div>
                 </div>
                 <div className='list-container'>
@@ -33,17 +33,17 @@ export const Resume = () => {
                     <div className='list'>
                         <div>
                             <h4>Design</h4>
-                            <li>Skill 1</li>
-                            <li>Skill 2</li>
-                            <li>Skill 3</li>
-                            <li>Skill 4</li>
+                            <li>Visual Design</li>
+                            <li>UX/UI Design</li>
+                            <li>Branding</li>
+                            <li>Prototyping</li>
                         </div>
                         <div>
                             <h4>Development</h4>
-                            <li>Skill 1</li>
-                            <li>Skill 2</li>
-                            <li>Skill 3</li>
-                            <li>Skill 4</li>
+                            <li>Visual Development</li>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
                         </div>
                     </div>
                 </div>
@@ -52,17 +52,17 @@ export const Resume = () => {
                         <div className='list'>
                             <div>
                             <div>
-                                <li>Skill 1</li>
-                                <li>Skill 2</li>
-                                <li>Skill 3</li>
-                                <li>Skill 4</li>
+                                <li>Wordpress</li>
+                                <li>Photoshop</li>
+                                <li>Illustrator</li>
+                                <li>Adobe XD</li>
                             </div>
                         </div>
                         <div>
-                            <li>Skill 1</li>
-                            <li>Skill 2</li>
-                            <li>Skill 3</li>
-                            <li>Skill 4</li>
+                            <li>Visual Studio Code</li>
+                            <li>Figma</li>
+                            <li>GitHub</li>
+                            <li>Lightroom</li>
                         </div>
                         </div>
                     </div>
@@ -72,37 +72,44 @@ export const Resume = () => {
                 <div className='education-container'>
                     <h3>Education</h3>
                     <div className='education'>
-                        <h4>School Name</h4>
-                        <p>Major</p>
-                        <p>Date</p>
+                        <h4>University of North Texas</h4>
+                        <p>B.A. in Interdisciplinary Design & Art Studies</p>
+                        <p>Minors in Marketing and Art History</p>
+                        <p>2015 - 2019</p>
                     </div>
                     <div className='education'>
-                        <h4>School Name</h4>
-                        <p>Major</p>
-                        <p>Date</p>
+                        <h4>North Mesquite H.S.</h4>
+                        <p>General Studies</p>
+                        <p>2011 - 2015</p>
                     </div>
                 </div>
                 <div className='courses-container'>
                     <h3>Online Courses</h3>
                     <div className='online-course'>
-                        <h4>Website Name</h4>
-                        <p>Course Name</p>
+                        <h4>freeCodeCamp</h4>
+                        <p>Responsive Web Design</p>
+                        <p>JavaScript Algorithms</p>
                     </div>
                     <div className='online-course'>
-                        <h4>Website Name</h4>
-                        <p>Course Name</p>
+                        <h4>The Odin Project</h4>
+                        <p>Foundations</p>
                     </div>
                     <div className='online-course'>
-                        <h4>Website Name</h4>
-                        <p>Course Name</p>
+                        <h4>Codecademy</h4>
+                        <p>Various Courses</p>
                     </div>
                     <div className='online-course'>
-                        <h4>Website Name</h4>
-                        <p>Course Name</p>
+                        <h4>Udemy</h4>
+                        <p>The Complete 2022 Web Development Bootcamp</p>
+                        <p>The Complete WordPress Website Business Course</p>
                     </div>
                     <div className='online-course'>
-                        <h4>Website Name</h4>
-                        <p>Course Name</p>
+                        <h4>Coursera</h4>
+                        <p>Intro to UX Design from Georgia Tech</p>
+                    </div>
+                    <div className='online-course'>
+                        <h4>Google Digital Garage</h4>
+                        <p>Fundamentals of Digital Marketing</p>
                     </div>
                 </div>
         </div>

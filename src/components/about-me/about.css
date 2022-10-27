@@ -1,5 +1,6 @@
 p {
-    font-size: 20px;
+    font-size: 26px;
+    line-height: 38px;
 }
 
 .text-container {
@@ -14,6 +15,7 @@ p {
     flex-direction: column;
     gap: 48px;
     margin-bottom: 62px;
+    margin-left: 30px;
 }
 
 .title {

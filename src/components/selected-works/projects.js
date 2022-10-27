@@ -2,6 +2,9 @@ import './projects.css';
 import Laptop from './laptop.png';
 import RPS from './RPS-Mockup.png';
 import Hulu from './Hulu-Mockup.png';
+import Weather from './Weather-Mockup.png';
+import CSS from './CSS-Mockup.png';
+import GFX from './Design-Mockup.png';
 
 export const Projects = () => {
 
@@ -37,11 +40,11 @@ return (
             </div>
         </div>
         <div className='card-containers'>
-            <div className='left-container'>
+            <div className='left-container shift-up'>
                 <div className='card'>
                     <h3>Weather App</h3>
                     <p>Web Design, Web Development</p>
-                    <img src={Laptop} />
+                    <img src={Weather} />
                     <div className='project-buttons'>
                         <button>Live</button>
                         <button>Github</button>
@@ -51,7 +54,7 @@ return (
             </div>
             <div className='right-container'>
                 <div className='card'>
-                <h3>Portfolio</h3>
+                <h3>This Portfolio</h3>
                 <p>React Development, Web Design</p>
                 <img src={Laptop} />
                 <div className='project-buttons'>
@@ -62,11 +65,11 @@ return (
             </div>
         </div>
         <div className='card-containers'>
-            <div className='left-container'>
+            <div className='left-container shift-up2'>
                 <div className='card'>
-                    <h3>Complete Sign Solutions Website</h3>
+                    <h3>Client Website</h3>
                     <p>Web Design, Web Development</p>
-                    <img src={Laptop} />
+                    <img src={CSS} />
                     <div className='project-buttons'>
                         <button>Live</button>
                         <button>Github</button>
@@ -76,9 +79,9 @@ return (
             </div>
             <div className='right-container'>
                 <div className='card'>
-                <h3>Pharmacy Website</h3>
+                <h3>My Graphic Design Website</h3>
                 <p>React Development, Web Design</p>
-                <img src={Laptop} />
+                <img src={GFX} />
                 <div className='project-buttons'>
                         <button>Live</button>
                         <button>Github</button>

@@ -1,6 +1,6 @@
 h1 {
     font-family: Braveold;
-    font-size: 72px;
+    font-size: 84px;
 }
 
 p {
@@ -25,6 +25,104 @@ p {
 }
 
 .heading-links > img {
-    min-width: 50px;
-    height: auto;
+    width: auto;
+    height: 60px;
 }
+
+.underline {
+    margin: auto;
+    padding-bottom: 9px;
+    background-image: url('./squiggly-line.png');
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    animation: scrollBackground linear infinite 0.5s;
+}
+@keyframes scrollBackground {
+    from {
+      background-position: 0 100%;
+    }
+    to {
+      background-position: .9em 100%;
+    }
+  }
+
+
+  .typing-container {
+    display: inline-flex;
+  }
+
+  .typing-container .text {
+    position: relative;
+  }
+
+  .text.dynamic-txt:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-left: 3px solid black;
+    animation: animate 2s steps(9) infinite;
+  }
+@keyframes animate{
+    40%, 60% {
+        left: 100%;
+    }
+    100%{
+        left:0%
+    }
+}
+
+  /* .wrapper {
+    display: inline-flex;
+  }
+
+  .dynamic-txts {
+    margin: -15px 0 0 -25px;
+  }
+
+  .wrapper .dynamic-txts {
+    height: 60px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+
+  .dynamic-txts li {
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(6) infinite;
+  }
+  @keyframes slide {
+    100%{
+        top: -335px;
+    }    
+  }
+
+  .dynamic-txts li p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-left: 3px solid black;
+    animation: typing 1.75s infinite;
+  }
+
+  @keyframes typing {
+    50%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+  }
+
+  .dynamic-txts:nth-child(1) {
+    animation-delay: s;
+  }
+
+  .dynamic-txts:nth-child(1)::after {
+    animation-delay: s;
+    animation-timing-function: steps(10), step-end;
+  } */

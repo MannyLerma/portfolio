@@ -5,8 +5,8 @@
 }
 
 img {
-    width: 36px;
-    height: 36px;
+    width: 42px;
+    height: 42px;
     margin-right: 6px;
 }
 
@@ -23,14 +23,13 @@ div.logo {
 .title {
     font-family: Braveold;
     display: flex;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 .links {
     font-family: 'Futura';
     display: flex;
-    align-items: center;
     font-size: 18px;
     gap: 56px;
     cursor: pointer;

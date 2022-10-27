@@ -12,25 +12,36 @@ export const AboutMe = () => {
             <div className='text-container'>
                 <h4>Who am I?</h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aliquam interdum iaculis sapien in faucibus. Duis aliquet 
-                libero nec sollicitudin bibendum.
+                My name is Emmanuel Lerma and I am a graphic designer
+                and an aspiring front-end web developer in Dallas, TX.
+                I have a B.A. in Interdisciplinary Design & Art Studies,
+                with minors in Marketing and Art History.
                 </p>
             </div>
             <div className='text-container'>
                 <h4>What do I do?</h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aliquam interdum iaculis sapien in faucibus. Duis aliquet 
-                libero nec sollicitudin bibendum. Lorem ipsum dolor sit.
+                I aim to combine my newfound knowledge of web
+                development with my experience of design to transform
+                tricky problems into engaging solutions. With my ongoing
+                committment to learning, I am understanding the 
+                constraints of the web and be able to design and build 
+                around them effectively.
                 </p>
             </div>
             <div className='text-container'>
                 <h4>What am I passionate about?</h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aliquam interdum iaculis sapien in faucibus. Duis aliquet 
-                libero nec sollicitudin bibendum. Lorem ipsum dolor sit.
+                As someone who has focused on creating design solutions
+                the past 10+ years, I want to continue creating beautiful
+                experiences at a greater scale.
+                </p>
+                <p>
+                Because of this, I am always on the lookout for learning 
+                something new to add to my arsenal of tools and
+                techniques. I am also extremely passionate about 
+                bridging the gap between designer and developer in order
+                to create the best product.
                 </p>
             </div>
         </div>
