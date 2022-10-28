@@ -5,7 +5,6 @@ import email from './email.png';
 import resume from './resume.png';
 import Typed from 'react-typed';
 
-
 export const Intro = () => {
 
     return (
@@ -78,7 +77,7 @@ export const Intro = () => {
                         </a>
                     </div>
                     <div className='tooltip'>
-                        <a href='' target="_blank">
+                        <a href='https://drive.google.com/file/d/1vNlfEz-Eh9R9MStfTwRGFQmdA1g8zUhB/view?usp=sharing' target="_blank">
                             <img src={resume} />
                             <p className='tooltiptxt'>Resume</p>
                         </a>
